@@ -1,11 +1,18 @@
 ## Технологии и инструменты
 
-![Spring](https://img.shields.io/badge/-Spring-success?style=flat-square&logo=spring)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-blue?style=flat-square&logo=postgresql)
-![Docker](https://img.shields.io/badge/-Docker-informational?style=flat-square&logo=docker)
-![Liquibase](https://img.shields.io/badge/-Liquibase-blueviolet?style=flat-square&logo=liquibase)
-![Lombok](https://img.shields.io/badge/-Lombok-orange?style=flat-square&logo=lombok)
-![Hibernate](https://img.shields.io/badge/-Hibernate-red?style=flat-square&logo=hibernate)
+![Spring](https://img.shields.io/badge/-Spring-success?style=flat-square&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-blue?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-informational?style=flat-square&logo=docker&logoColor=white)
+![Liquibase](https://img.shields.io/badge/-Liquibase-blueviolet?style=flat-square&logo=liquibase&logoColor=white)
+![Lombok](https://img.shields.io/badge/-Lombok-orange?style=flat-square&logo=lombok&logoColor=white)
+![Hibernate](https://img.shields.io/badge/-Hibernate-red?style=flat-square&logo=hibernate&logoColor=white)
+![Maven](https://img.shields.io/badge/-Maven-orange?style=flat-square&logo=apache-maven&logoColor=white)
+
+<style>
+img {
+  height: 40px !important;
+}
+</style>
 
 ### Socks Shop API 
 
