@@ -7,7 +7,7 @@
 ![Lombok](https://img.shields.io/badge/-Lombok-orange?style=flat-square&logo=lombok)
 ![Hibernate](https://img.shields.io/badge/-Hibernate-red?style=flat-square&logo=hibernate)
 
-**Socks Shop API**
+##Socks Shop API##
 
 Этот репозиторий содержит исходный код для API интернет-магазина носков, предоставляющего эндпоинты для управления их запасами в вымышленном онлайн-магазине носков.
 
