@@ -8,12 +8,6 @@
 ![Hibernate](https://img.shields.io/badge/-Hibernate-red?style=flat-square&logo=hibernate&logoColor=white)
 ![Maven](https://img.shields.io/badge/-Maven-orange?style=flat-square&logo=apache-maven&logoColor=white)
 
-<style>
-img {
-  height: 40px !important;
-}
-</style>
-
 ### Socks Shop API 
 
 Этот репозиторий содержит исходный код для API интернет-магазина носков, предоставляющего эндпоинты для управления их запасами в вымышленном онлайн-магазине носков.
