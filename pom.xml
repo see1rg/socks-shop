@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.skypro</groupId>
-    <artifactId>socks_shop</artifactId>
+    <artifactId>ForJob</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>socks_shop</name>
-    <description>socks_shop</description>
+    <name>ForJob</name>
+    <description>ForJob</description>
     <properties>
         <java.version>17</java.version>
     </properties>
