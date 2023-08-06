@@ -1,13 +1,16 @@
 package org.example.services;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.example.exceptions.InsufficientSocksException;
 import org.example.models.Socks;
 import org.example.repositories.SocksRepository;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Slf4j
 @RequiredArgsConstructor
+@Transactional
 public class SocksService {
 
     public enum SockOperation {
@@ -38,7 +41,7 @@ public class SocksService {
                 socks.getCottonPart());
         if (checkSocks == null ||
                 quantityToRemove > quantityOnTheStock) {
-            throw new IllegalArgumentException("Not enough socks for this operation");
+            throw new InsufficientSocksException("Not enough socks for this operation");
         }
         if (checkSocks.getQuantity() - quantityToRemove == 0) {
             socksRepository.delete(checkSocks);
